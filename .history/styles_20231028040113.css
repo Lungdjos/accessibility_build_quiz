@@ -11,14 +11,3 @@ header {
     height: 50px;
     width: 100%;
 }
-
-h1 {
-    color: #f1be32;
-    font-size: min(5vw, 1.2em);
-}
-
-nav>ul {
-    text-transform: uppercase;
-    justify-content: space-evenly;
-    display: flex;
-}

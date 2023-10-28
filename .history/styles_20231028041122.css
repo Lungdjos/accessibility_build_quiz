@@ -19,6 +19,6 @@ h1 {
 
 nav>ul {
     text-transform: uppercase;
+    text-decoration: none;
     justify-content: space-evenly;
-    display: flex;
 }
