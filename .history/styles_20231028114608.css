@@ -33,7 +33,6 @@ nav {
 nav>ul {
     display: flex;
     justify-content: space-evenly;
-    text-transform: uppercase;
 }
 
 h1,
