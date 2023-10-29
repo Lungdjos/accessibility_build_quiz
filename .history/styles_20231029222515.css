@@ -10,10 +10,6 @@ header {
     height: 50px;
     background-color: #1b1b32;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    position: fixed;
-    top: 0;
 }
 
 #logo {
@@ -26,11 +22,6 @@ header {
 h1 {
     color: #f1be32;
     font-size: min(5vw, 1.2em);
-    text-align: center;
-}
-
-main {
-    padding-top: 25px;
 }
 
 nav {
@@ -43,11 +34,6 @@ nav>ul {
     display: flex;
     justify-content: space-evenly;
     text-transform: uppercase;
-    align-items: center;
-    padding-inline-start: 0;
-    margin-block: 0;
-    height: 100%;
-    flex-wrap: wrap;
 }
 
 h1,
@@ -57,8 +43,6 @@ h2 {
 
 h2 {
     border-bottom: 4px solid #dfdfe2;
-    margin-top: 0;
-    padding-top: 60px;
 }
 
 .sr-only {
@@ -77,38 +61,9 @@ p::before {
     content: "Question #";
 }
 
-nav li {
+nav>li {
     color: #dfdfe2;
     margin: 0 0.2rem;
     padding: 0.2rem;
     display: block;
-}
-
-li>a {
-    color: inherit;
-}
-
-nav li>a {
-    text-decoration: none;
-}
-
-nav li>a:hover {
-    text-decoration: none;
-    background-color: #dfdfe2;
-    color: #1b1b32;
-    cursor: pointer;
-}
-
-section {
-    width: 80%;
-    max-width: 600px;
-    margin: 0 auto 10px auto;
-}
-
-fieldset {
-    border-radius: 5px;
-}
-
-.info {
-    padding: 10px 0 0 5px;
 }

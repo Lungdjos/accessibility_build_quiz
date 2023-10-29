@@ -57,8 +57,6 @@ h2 {
 
 h2 {
     border-bottom: 4px solid #dfdfe2;
-    margin-top: 0;
-    padding-top: 60px;
 }
 
 .sr-only {
@@ -106,9 +104,5 @@ section {
 }
 
 fieldset {
-    border-radius: 5px;
-}
-
-.info {
-    padding: 10px 0 0 5px;
+    border-radius: ;
 }
