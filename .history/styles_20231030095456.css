@@ -1,11 +1,5 @@
 /*Content design */
 
-@media (prefers-reduced-motion:no-preference) {
-    * {
-        scroll-behavior: smooth;
-    }
-}
-
 body {
     background: #f5f6f7;
     color: #1b1b32;
@@ -197,18 +191,5 @@ button:hover {
 
 footer {
     background-color: #2a2a40;
-    color: #dfdfe2;
-    display: flex;
-    justify-content: center;
-}
-
-footer a {
-    color: #d0d0d5;
-    text-decoration: none;
-}
-
-address {
-    align-items: center;
-    padding: 10px;
-    text-align: center;
+    fle
 }

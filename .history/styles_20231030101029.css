@@ -1,9 +1,9 @@
 /*Content design */
 
-@media (prefers-reduced-motion:no-preference) {
-    * {
-        scroll-behavior: smooth;
-    }
+@media {}
+
+* {
+    scroll-behavior: smooth;
 }
 
 body {

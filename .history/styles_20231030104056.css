@@ -1,9 +1,9 @@
 /*Content design */
 
-@media (prefers-reduced-motion:no-preference) {
-    * {
-        scroll-behavior: smooth;
-    }
+@media (pref {}
+
+* {
+    scroll-behavior: smooth;
 }
 
 body {
@@ -23,8 +23,7 @@ main {
     padding-top: 25px;
 }
 
-h1,
-h2 {
+h1, h2 {
     font-family: Verdana, Tahoma;
 }
 
@@ -145,8 +144,7 @@ section {
     min-width: 55px;
 }
 
-.info input,
-.info label {
+.info input, .info label {
     display: inline-block;
 }
 
